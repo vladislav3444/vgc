@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Мой первый сайт на html</title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    
+         
+    <!-- Основной блок сайта -->
+    <div id="basic">
+     
+        <!-- Шапка сайта -->
+        <div id="head-site">
+            <a href="#"><img src="images/logo.jpg" width="100" height="70" alt="Кофейня" title="Кофейня" /></a>
+            <img src="images/telefon.png" width="100" height="70" alt="69-69-69" title="69-69-69" class="telefon" />
+        </div>
+         
+        <!-- Верхнее меню сайта -->
+        <div id="menu-top">
+        <div class="bg-1">
+            <ul>
+            <li><a href="o-nas.html">О нас</a></li>
+            <li><a href="assortiment.html">Ассортимент</a></li>
+            <li><a href="gallary.html">Галлерея</a></li>
+            <li><a href="registrazia.html">Регистрация</a></li>
+            </ul>
+        </div>
+        <div class="bg-2"></div>
+        </div>
+         
+        <!-- Левое меню и Контент -->
+        <div id="content">
+         
+            <!-- Контент - правый блок -->
+            <div class="right">
+
+                <div class="gallery">
+                <a rel="gallery" class="photo" href="gallery_img/big/01.jpg" title="Картинка 1"><img src="gallery_img/small/01.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/02.jpg" title="Картинка 2"><img src="gallery_img/small/02.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/03.jpg" title="Картинка 2"><img src="gallery_img/small/03.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/04.jpg" title="Картинка 2"><img src="gallery_img/small/04.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/05.jpg" title="Картинка 2"><img src="gallery_img/small/05.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/06.jpg" title="Картинка 2"><img src="gallery_img/small/06.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/07.jpg" title="Картинка 2"><img src="gallery_img/small/07.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/08.jpg" title="Картинка 2"><img src="gallery_img/small/08.jpg" width="150" height="100" alt="" /></a>
+                <a rel="gallery" class="photo" href="gallery_img/big/09.jpg" title="Картинка 2"><img src="gallery_img/small/09.jpg" width="150" height="100" alt="" /></a>
+
+                <script type="text/javascript" src="./scripts/jquery-1.4.3.min.js"></script>
+                <script type="text/javascript" src="./scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+                <script type="text/javascript" src="./scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+                <link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+                <script>
+                $(document).ready(function(){
+                $("a.photo").fancybox();
+                });
+                </script>
+
+                </div>
+
+                    
+             
+            </div>
+             
+            <!-- Левое меню - левый блок блок -->
+            <div class="left">
+                <div id="left-menu">
+                    <div class="block-nad-menu"></div>
+                    <div class="block-menu">
+                    <ul>
+                    <li><a href="/kofe-ayrish.html">Кофе Айриш</a></li>
+                    <li><a href="/kofe-amerikano.html">Кофе Американо</a></li>
+                    <li><a href="/kofe-glyase.html">Кофе Глясе</a></li>
+                    <li><a href="/kofe-dippio.html">Кофе Диппио</a></li>
+                    <li><a href="/kofe-kapuchino.html">Кофе Капучино</a></li>
+                    <li><a href="/kofe-kon-panna.html">Кофе Кон Панна</a></li>
+                    <li><a href="/kofe-koretto.html">Кофе Коретто</a></li>
+                    <li><a href="/kofe-latte.html">Кофе Латте</a></li>
+                    <li class="none-bg"><a href="/kofe-lungo.html">Кофе Лунго</a></li>
+                    </ul>
+                    </div>
+                    <div class="block-pod-menu"></div>
+                </div>
+             
+            </div>
+         
+        </div>
+        <div class="myclr"></div>
+         
+        <!-- Подвал -->
+        <div id="podval">
+            <div class="yellow"></div>
+            <div class="p1">ООО “Кофейня” 2021г.<br/>
+            г. Ульяновск</div>
+            <div class="p3"><img src="/images/stat.png" alt="" title="" /></div>
+            <div class="p2">Горбач Владислав <a href="#">«Парампампам»</a></div>
+             
+        </div>
+        <div class="myclr"></div>
+         
+    </div>
+</body>
+</html>
